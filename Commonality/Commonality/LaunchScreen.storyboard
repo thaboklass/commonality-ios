@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="commonality_icon_with_transparency" translatesAutoresizingMaskIntoConstraints="NO" id="lb1-T2-6Yk">
+                                <rect key="frame" x="102.5" y="258.5" width="170" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="KnX-8P-tCN"/>
+                                    <constraint firstAttribute="width" constant="170" id="jXN-O3-jYy"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by PicShip" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Qk-4K-HnR">
+                                <rect key="frame" x="60" y="436" width="255" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="255" id="Dzg-fo-sO0"/>
+                                    <constraint firstAttribute="height" constant="58" id="pUS-lx-a8Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="40"/>
+                                <color key="textColor" red="0.7537570595741272" green="0.11644663661718369" blue="0.78864055871963501" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16078431372549018" green="0.66274509803921566" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9Qk-4K-HnR" firstAttribute="top" secondItem="lb1-T2-6Yk" secondAttribute="bottom" constant="7.5" id="CTH-XX-kjS"/>
+                            <constraint firstItem="9Qk-4K-HnR" firstAttribute="centerX" secondItem="T77-ve-JBT" secondAttribute="centerX" id="dpf-rj-anY"/>
+                            <constraint firstItem="lb1-T2-6Yk" firstAttribute="centerX" secondItem="T77-ve-JBT" secondAttribute="centerX" id="jVO-zS-eBK"/>
+                            <constraint firstItem="lb1-T2-6Yk" firstAttribute="centerY" secondItem="T77-ve-JBT" secondAttribute="centerY" id="zgP-32-8H9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="T77-ve-JBT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="commonality_icon_with_transparency" width="1200" height="1200"/>
+    </resources>
+</document>
